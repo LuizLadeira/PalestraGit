@@ -18,8 +18,10 @@ public class TesteFibonacci {
    @Test
    public void testFibonacci(){
        Fibonacci fibonacci = new Fibonacci();
+     
        assertEquals(0, fibonacci.calcularFibonacci(0));
        assertEquals(1,fibonacci.calcularFibonacci(1));
+       assertEquals(1,fibonacci.calcularFibonacci(2));
    }
    
    
